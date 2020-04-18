@@ -1,0 +1,48 @@
+@font-face{
+    font-family:'Roboto';
+    src:url('../fonts/Roboto-Regular.ttf');
+}
+  
+@font-face{
+    font-family:'Roboto';
+    src:url('../fonts/Roboto-Bold.ttf');
+    font-weight:bold;
+}
+  
+#caixa-img {
+    text-align: center;
+}
+  
+.imagem {
+    margin: 20px;
+    text-align: center;
+}
+  
+body{
+    margin: 0;
+    font-family: Roboto;
+    background-color: rgb(240, 159, 172);  
+}
+  
+h1{
+    color:rgb(10,10,10);
+    font-family:'Roboto'; 
+}
+  
+h2 {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(10,10,10);
+    font-family: 'Roboto';
+    text-align: center;
+}
+p {
+    color:rgb(10,10,10);
+    font-family:'Roboto'; 
+}
+  
+footer{
+    background-color: rgb(10,10,10);
+    color: white;
+    overflow: hidden;
+}
